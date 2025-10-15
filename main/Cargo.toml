@@ -1,0 +1,10 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+meshtastic = "v1.76.0"  # Check crates.io for the latest version
+gtk = { version = "0.15", features = ["v3_16"] }
+glib = "0.15"
+serialport = "4.2"  # For direct serial communication (if needed)
